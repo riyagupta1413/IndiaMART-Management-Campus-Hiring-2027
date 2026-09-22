@@ -1,0 +1,309 @@
+name: Management Hiring Form (Campus 2027)
+description: >
+  IndiaMART Management Campus Hiring 2027 — Join India's Largest B2B
+  Marketplace. Apply for Management roles across Product and Tech verticals.
+title: "[Application - Campus 2027] "
+labels: ["campus-hiring-2027", "application"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## IndiaMART Management Campus Hiring 2027
+        We are looking for ambitious Management graduates to join our team to build
+        real-world intelligent systems that impact millions of users and solve
+        real-time business use cases. We are hiring across multiple roles and domains.
+        Shortlisted candidates will be contacted after the evaluation process.
+
+        Learn more: [IndiaMART Corporate](https://corporate.indiamart.com/)
+
+  - type: input
+    id: email
+    attributes:
+      label: Email
+      placeholder: you@example.com
+    validations:
+      required: true
+
+  - type: input
+    id: full-name
+    attributes:
+      label: Candidate Full Name
+    validations:
+      required: true
+
+  - type: input
+    id: contact-number
+    attributes:
+      label: Candidate Contact Number
+    validations:
+      required: true
+
+  - type: input
+    id: personal-email
+    attributes:
+      label: Candidate Personal Email ID
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: positions
+    attributes:
+      label: "Select the position(s) you are interested in applying for:"
+      options:
+        - label: Assistant Product Manager (Product and Tech Verticals)
+        - label: Other (please specify below)
+    validations:
+      required: true
+
+  - type: input
+    id: positions-other
+    attributes:
+      label: If "Other" selected above, please specify
+      placeholder: Fill NA if not applicable
+
+  - type: dropdown
+    id: graduation-degree
+    attributes:
+      label: Graduation Degree
+      options:
+        - B.Tech./B.E. (CS/IT)
+        - B.Tech./B.E. (Non CS/IT)
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: graduation-degree-other
+    attributes:
+      label: If "Other" selected above, please specify degree
+      placeholder: Fill NA if not applicable
+
+  - type: input
+    id: ug-college
+    attributes:
+      label: UG College (Enter Full Name)
+    validations:
+      required: true
+
+  - type: input
+    id: tenth-percentage
+    attributes:
+      label: "10th Percentage (use board-approved multiplying factor to convert from GPA)"
+    validations:
+      required: true
+
+  - type: input
+    id: twelfth-percentage
+    attributes:
+      label: "12th Percentage (use board-approved multiplying factor to convert from GPA)"
+    validations:
+      required: true
+
+  - type: input
+    id: ug-percentage
+    attributes:
+      label: "UG percentage (use university-approved multiplying factor to convert from GPA)"
+    validations:
+      required: true
+
+  - type: input
+    id: ug-year
+    attributes:
+      label: "UG Year of Passing (YYYY)"
+      placeholder: "e.g. 2023"
+    validations:
+      required: true
+
+  - type: input
+    id: entrance-percentile
+    attributes:
+      label: "Percentile scored in CAT/XAT/SNAP/NMAT"
+      placeholder: "e.g. CAT - 95, XAT - 90"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pg-college
+    attributes:
+      label: "Post Graduation College (select 'Other' if not listed)"
+      options:
+        - ABV IIIT-M
+        - Alliance University
+        - Babasheb Bhimrao Ambedkar University
+        - Bharathidasan Institute of Management
+        - BIMTech
+        - BML Munjal University
+        - Chandigarh University
+        - Chitkara University
+        - Faculty of Management Studies (FMS) Delhi
+        - Faculty of Management Studies (FMS) BHU
+        - Fore School of Management
+        - Goa Institute of Management
+        - Great Lakes Institute of Management-Gurgaon
+        - Great Lakes - Chennai
+        - ICFAI - Hyderabad
+        - IIFT New Delhi
+        - IIM Ahmedabad
+        - IIM Amritsar
+        - IIM Bangalore
+        - IIM Bodhgaya
+        - IIM Calcutta
+        - IIM Indore
+        - IIM Jammu
+        - IIM Kashipur
+        - IIM Kozhikode
+        - IIM Lucknow
+        - IIM Nagpur
+        - IIM Raipur
+        - IIM Ranchi
+        - IIM Rohtak
+        - IIM Sambalpur
+        - IIM Shillong
+        - IIM Sirmaur
+        - IIM Tiruchirappalli
+        - IIM Udaipur
+        - IIM Vishakhapatnam
+        - IIT Bombay
+        - IIT Delhi
+        - IIT Kanpur
+        - IIT Kharagpur
+        - IIT Madras
+        - IIT Roorkee (DOMS)
+        - IMI Bhubaneswar
+        - IMI Delhi
+        - IMI Kolkata
+        - IMT Ghaziabad
+        - IMT Nagpur
+        - Indian Institute of Technology (IIT-ISM) Dhanbad
+        - Institute of Rural Management Anand (IRMA)
+        - Jagan Institute of Management Studies
+        - Jain University - Bangalore
+        - Jaipuria Institute of Management - Jaipur
+        - Jaipuria Institute of Management - Lucknow
+        - Jaipuria Institute of Management - Noida
+        - KJ Somaiya - Mumbai
+        - Loyola Institute of Business Administration
+        - MDI Gurgaon
+        - MICA Ahmedabad
+        - Nirma University
+        - NIT Calicut
+        - NIT Tiruchirappalli
+        - NITIE Mumbai
+        - NMIMS Mumbai
+        - Panjab University
+        - Principal L N Welingkar Institute of Management
+        - PSG College of Technology
+        - SIBM Pune
+        - SP Jain Mumbai
+        - TAPMI - Manipal
+        - University of Petroleum and Energy Studies (UPES)
+        - XIMB
+        - XLRI Jamshedpur
+        - ISB Hyderabad
+        - XIME, Bangalore
+        - JBIMS, Mumbai
+        - SCMHRD Pune
+        - SIIB Pune
+        - PUMBA Pune
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: pg-college-other
+    attributes:
+      label: If "Other" selected above, provide full name of PG College
+      placeholder: Fill NA if already selected above
+
+  - type: dropdown
+    id: pg-specialization
+    attributes:
+      label: Post Graduation Specialization
+      options:
+        - MBA/PGDM (General/Others)
+        - MBA/PGDM (Banking & Finance)
+        - MBA/PGDM (Marketing)
+        - MBA/PGDM (HR)
+    validations:
+      required: true
+
+  - type: input
+    id: pg-completion-year
+    attributes:
+      label: "Post Graduation Completion Year (YYYY)"
+      placeholder: "e.g. 2027"
+    validations:
+      required: true
+
+  - type: input
+    id: pg-percentage
+    attributes:
+      label: "Post Graduation percentage (use university-approved multiplying factor to convert from GPA)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: home-state
+    attributes:
+      label: "Home Location (State)"
+      options:
+        - Andhra Pradesh
+        - Arunachal Pradesh
+        - Assam
+        - Bihar
+        - Chattisgarh
+        - Delhi
+        - Goa
+        - Gujarat
+        - Haryana
+        - Himachal Pradesh
+        - Jharkhand
+        - Karnataka
+        - Kerala
+        - Madhya Pradesh
+        - Maharashtra
+        - Manipur
+        - Meghalaya
+        - Mizoram
+        - Nagaland
+        - Odisha
+        - Punjab
+        - Rajasthan
+        - Sikkim
+        - Tamil Nadu
+        - Telangana
+        - Tripura
+        - Uttar Pradesh
+        - Uttarakhand
+        - West Bengal
+        - Union Territory
+    validations:
+      required: true
+
+  - type: input
+    id: total-experience
+    attributes:
+      label: "Total Experience in Months (Pre MBA)"
+      placeholder: "Enter 0 if not applicable"
+    validations:
+      required: true
+
+  - type: textarea
+    id: aiml-projects
+    attributes:
+      label: "Provide key projects details - AI/ML used to develop solutions or solve problems"
+      description: "Project name, brief description, AI/ML technologies or tools used, link to the GitHub repository or live demo."
+    validations:
+      required: true
+
+  - type: input
+    id: resume-link
+    attributes:
+      label: "Resume/CV Link"
+      description: >
+        GitHub Issue Forms cannot accept file uploads directly. Please upload
+        your resume to Google Drive, Dropbox, or OneDrive, set sharing to
+        "Anyone with the link", and paste the link here.
+      placeholder: "https://drive.google.com/..."
+    validations:
+      required: true
